@@ -1,0 +1,25 @@
+{
+  "name": "node-test-app",
+  "version": "1.0.0",
+  "description": "Working files for Eric Elliott's [article and tutorial](https://medium.com/javascript-scene/introduction-to-node-express-90c431f9e6fd#.egxeakmo0).",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_PATH=source node source/server.js",
+    "debug": "cross-env NODE_PATH=source node --debug-brk --inspect source/server.js",
+    "test": "cross-env NODE_PATH=source node source/test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryancharris/node-test-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryancharris/node-test-app/issues"
+  },
+  "homepage": "https://github.com/ryancharris/node-test-app#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0"
+  }
+}
